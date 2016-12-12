@@ -1,0 +1,98 @@
+/*
+ Theme Name:   Illdy Theme by MLS
+ Theme URI:        http://books4language.com/(escribir nombre del subdominio)/
+ Description:       illdy Child Theme by My language skills
+ Author:               My language skills Team
+ Author URI:       http://mylanguageskills.wordpress.com
+ Template:          illdy
+ Version:             0.1
+ License:            GNU General Public License v2 or later
+ License URI:     http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         
+ Text Domain:   illdy-child
+*/
+
+@import url("../shapely/style.css");
+
+
+/* Add your custom css below
+-------------------------------------------------------------- */
+a,a:visited{color:#333;}
+a:hover{color:#999;}
+.pace .pace-activity {
+    box-shadow: inset 0 0 0 2px  #D4002D, inset 0 0 0 7px #FFF;
+}
+.pace .pace-progress {
+	background: #D4002D;
+	color:#D4002D;
+}
+/*site title color*/
+#header .top-header .header-logo:hover{
+	color: #fff;
+}
+
+/*site menu color*/
+#header .top-header .header-navigation{
+	background: rgba(255, 255, 255, 0.1);
+}
+#header .top-header .header-navigation ul li a {color:#fff;}
+
+#header .top-header .header-navigation ul li a:hover{color:#333;}
+
+/*header color*/
+#header .bottom-header span.span-dot{color:#fff;}
+#header .bottom-header .header-button-two {background-color:#D4002D;}
+#header .bottom-header .header-button-two:hover { 
+	background: rgba(133, 0, 16, 0.9);
+
+	/*background: rgba(161, 0, 34, 0.9);*/
+}
+
+/*latest blog button*/
+#latest-news .latest-news-button {background-color:#D4002D;}
+#latest-news .latest-news-button:hover {background-color:#88001D;}
+
+/*post title,post button*/
+#latest-news .section-content .post .post-button {color:#D4002D;}
+#latest-news .section-content .post .post-button:hover{color:#88001D;}
+#latest-news .section-content .post .post-title:hover{color:#999;}
+
+/*contact section header*/
+#contact-us{background-color:#f6f6f6;}
+#contact-us .section-header h3,
+#contact-us .section-header p{color:#999;}
+
+/*contact section box*/
+#contact-us .section-content .contact-us-box .box-left{
+	color:#999;
+	border-right:1px solid #999;
+}
+#contact-us .section-content .contact-us-box .box-right span,
+#contact-us .section-content .contact-us-box .box-right span a{
+	color:#999;
+}
+/*contact section social medıa*/
+#contact-us .section-content .contact-us-social a{color:#999;}
+/*blog post*/
+#blog .blog-post .blog-post-meta .post-meta-author .fa,
+#blog .blog-post .blog-post-meta .post-meta-time .fa,
+#blog .blog-post .blog-post-meta .post-meta-categories .fa,
+#blog .blog-post .blog-post-meta .post-meta-comments .fa 
+	{color:#999;}
+#blog .blog-post .blog-post-meta,
+#blog .blog-post .blog-post-meta .post-meta-author{color:#999;}
+#blog .blog-post .blog-post-author h4 {color:#333;}
+
+/*blog comment button*/
+#comments #respond .comment-form #input-submit, input[type=submit]{
+	background-color:#D4002D;}
+input[type=submit]:hover{background-color:#88001D;}
+/*category post*/
+#blog .blog-post .blog-post-button {background-color:#D4002D;}
+#blog .blog-post .blog-post-button:hover {background-color:#88001D;}
+/*widget line*/
+.widget .widget-title:before{background-color:#D4002D;}
+.widget ul li:before {color:#333;}
+.widget ul li a:hover{color:#333;}
+/*footer widget*/
+#footer .widget ul li a:hover {color:#333;}
